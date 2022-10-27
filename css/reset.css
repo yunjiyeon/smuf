@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+header, main, section, aside, article, footer, nav, menu, details, figure, figcaption { display: block; }
+
+ul, li, dl, dt, dd { list-style: none; 
+margin-bottom: 0;
+padding-left: 0;}
+ 
+a, dl, dt, dd { 
+    text-decoration: none;
+    color: #000;
+}
+
+img { 
+    max-width: 100%;
+    border: 0;
+    vertical-align: middle; 
+}
+
+
